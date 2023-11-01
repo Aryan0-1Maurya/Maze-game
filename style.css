@@ -1,0 +1,214 @@
+/* 
+
+     ============================================================
+      
+          _____________   ^^^^^^^^^^    ____________________
+
+[   By ~Aryan Maurya Mr.perfect https://amsrportfolio.netlify.app  ]
+
+          _____________   ^^^^^^^^^^    ____________________
+
+     ============================================================
+
+*/
+
+*{
+    margin: 0;padding: 0;
+}
+
+#position {
+  width: 205px;
+  height: 25px;
+  background: red;
+  text-align: center;
+  position: absolute;
+  font-size: 15px;
+  top: 25px;
+  left: 70px;
+}
+
+#bg {
+  width: 345px;
+  height: 450px;
+  background: black;
+  position: absolute;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
+}
+
+#ceil {
+  width: 100%;
+  /* height: .4 - .4*2/(2N+1) */
+  background: yellow;
+  position: absolute;
+  top: 0;
+}
+
+#floor {
+  width: 100%;
+  /* height: .6 - .6*2/(2N+1) */
+  background: sienna;
+  position: absolute;
+  bottom: 0;
+}
+
+
+#left1 {
+  width: 57.5px;
+  height: 300px;
+  background: grey;
+  position: absolute;
+  left: 0;
+  bottom: 90px;
+}
+
+#right1 {
+  width: 57.5px;
+  height: 300px;
+  background: grey;
+  position: absolute;
+  right: 0;
+  bottom: 90px;
+}
+
+#wall0 {
+  width: 345px;
+  height: 450px;
+  background: transparent;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+#wall1 {
+  width: 230px;
+  height: 300px;
+  background: transparent;
+  position: absolute;
+  left: 56.5px;
+  bottom: 90px;
+  border-left: 1px black solid;
+  border-right: 1px black solid;
+}
+
+#ffront {
+  bottom: 165px;
+  left: 150px;
+  border-right: 22.5px transparent solid;
+  border-left: 22.5px transparent solid;
+  border-bottom: 15px yellow solid;
+}
+
+#front {
+  bottom: 120px;
+  left: 135px;
+  border-right: 37.5px transparent solid;
+  border-left: 37.5px transparent solid;
+  border-bottom: 25px yellow solid;
+}
+
+#back {
+  bottom: 20px;
+  left: 115px;
+  border-right: 57.5px transparent solid;
+  border-left: 57.5px transparent solid;
+  border-top: 35px yellow solid;
+}
+
+#fleft {
+  bottom: 125px;
+  left: 60px;
+  border-right: 20px yellow solid;
+  border-top: 15px transparent solid;
+  border-bottom: 15px transparent solid;
+}
+
+#lfront {
+  bottom: 120px;
+  left: 10px;
+  border-right: 15px transparent solid;
+  border-left: 15px transparent solid;
+  border-bottom: 25px yellow solid;
+}
+
+#left {
+  bottom: 35px;
+  left: 10px;
+  border-right: 15px yellow solid;
+  border-top: 20px transparent solid;
+  border-bottom: 20px transparent solid;
+}
+
+#fright {
+  bottom: 125px;
+  right: 60px;
+  border-left: 20px yellow solid;
+  border-top: 15px transparent solid;
+  border-bottom: 15px transparent solid;
+}
+
+#rfront {
+  bottom: 120px;
+  right: 10px;
+  border-right: 15px transparent solid;
+  border-left: 15px transparent solid;
+  border-bottom: 25px yellow solid;
+}
+
+#right {
+  bottom: 35px;
+  right: 10px;
+  border-left: 15px yellow solid;
+  border-top: 20px transparent solid;
+  border-bottom: 20px transparent solid;
+}
+
+#tleft {
+  bottom: 210px;
+  left: 15px;
+  border-right: 30px blue solid;
+  border-top: 45px transparent solid;
+  border-bottom: 45px transparent solid;
+}
+
+#tright {
+  bottom: 210px;
+  right: 15px;
+  border-left: 30px blue solid;
+  border-top: 45px transparent solid;
+  border-bottom: 45px transparent solid;
+}
+
+#new {
+  width: 90px;
+  height: 25px;
+  background: green;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  left: 70px;
+}
+
+#sol {
+  width: 90px;
+  height: 25px;
+  background: skyblue;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  right: 70px;
+}
+/* 
+
+     ============================================================
+      
+          _____________   ^^^^^^^^^^    ____________________
+
+[   By ~Aryan Maurya Mr.perfect https://amsrportfolio.netlify.app  ]
+
+          _____________   ^^^^^^^^^^    ____________________
+
+     ============================================================
+
+*/
